@@ -4,7 +4,7 @@ import { socialNetworks } from "../../db/socialNetworks";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col gap-y-8 bg-steel-900 lg:mt-24 md:mt-12 mt-6 pb-8">
+    <footer className="flex flex-col gap-y-8 dark:bg-steel-900 bg-steel-200 lg:mt-24 md:mt-12 mt-6 pb-8">
       <Fade direction="up" duration={400} cascade triggerOnce>
         <div className="lg:hidden block pt-10">
           <nav>
@@ -36,9 +36,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <p className="font-body text-xl">
-              Pablo Gimenez &copy;2021
-            </p>
+            <p className="font-body text-xl">Pablo Gimenez &copy;2021</p>
           </a>
         </div>
       </Fade>
