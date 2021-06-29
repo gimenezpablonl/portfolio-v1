@@ -1,0 +1,49 @@
+{
+  "name": "gimenezpablonl-portfolio-v1",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "author": {
+    "name": "Pablo",
+    "email": "contact@gimenezpablo.nl",
+    "url": "https://gimenezpablo.nl"
+  },
+  "homepage": "https://gimenezpablo.nl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gimenezpablonl/portfolio-v1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gimenezpablonl/portfolio-v1/issues"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@icons-pack/react-simple-icons": "^4.4.0",
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "@tippyjs/react": "^4.2.5",
+    "next": "11.0.1",
+    "next-pwa": "^5.2.21",
+    "react": "^17.0.1",
+    "react-awesome-reveal": "3.4.0",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-spring": "^9.2.3",
+    "tippy.js": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.5",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8",
+    "@types/simple-icons": "^5.0.0",
+    "autoprefixer": "^10.2.6",
+    "postcss": "^8.3.5",
+    "tailwind-scrollbar": "^1.3.1",
+    "tailwindcss": "^2.2.4",
+    "typescript": "^4.3.4"
+  },
+  "license": "ISC"
+}
