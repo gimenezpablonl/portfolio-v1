@@ -22,7 +22,7 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@icons-pack/react-simple-icons": "^4.4.0",
+    "@icons-pack/react-simple-icons": "^4.6.1",
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "@tippyjs/react": "^4.2.5",
     "next": "11.0.1",
