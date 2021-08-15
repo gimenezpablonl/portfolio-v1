@@ -1,10 +1,10 @@
 import {
   Graphql,
-  NextDotJs,
+  Nextdotjs,
   ReactJs,
-  SocketDotIo,
+  Socketdotio,
   Tailwindcss,
-  Typescript
+  Typescript,
 } from "@icons-pack/react-simple-icons";
 import React from "react";
 import { FiFeather } from "react-icons/fi";
@@ -26,7 +26,7 @@ const Work = () => {
       skillsUsed: [
         { name: "TypeScript", icon: Typescript },
         { name: "React", icon: ReactJs },
-        { name: "NextJS", icon: NextDotJs },
+        { name: "NextJS", icon: Nextdotjs },
         { name: "GraphQL", icon: Graphql },
         { name: "Fauna", icon: GiHummingbird },
       ],
@@ -44,7 +44,7 @@ const Work = () => {
         { name: "TypeScript", icon: Typescript },
         { name: "Tailwind CSS", icon: Tailwindcss },
         { name: "React", icon: ReactJs },
-        { name: "NextJS", icon: NextDotJs },
+        { name: "NextJS", icon: Nextdotjs },
       ],
     },
     {
@@ -57,7 +57,7 @@ const Work = () => {
       skillsUsed: [
         { name: "TypeScript", icon: Typescript },
         { name: "React", icon: ReactJs },
-        { name: "SocketIO", icon: SocketDotIo },
+        { name: "SocketIO", icon: Socketdotio },
         { name: "Feathers", icon: FiFeather },
       ],
     },
@@ -65,11 +65,11 @@ const Work = () => {
   return (
     <>
       <section id="work" className="w-full flex flex-col gap-y-8">
-      <Fade direction="down" triggerOnce cascade>
-        <div className="w-full flex flex-row items-center whitespace-nowrap lg:text-3xl text-2xl font-bold dark:text-steel-100 font-display">
-          <div className="mr-4">Some Things I’ve Built</div>
-          <WhiteLineHorizontal />
-        </div>
+        <Fade direction="down" triggerOnce cascade>
+          <div className="w-full flex flex-row items-center whitespace-nowrap lg:text-3xl text-2xl font-bold dark:text-steel-100 font-display">
+            <div className="mr-4">Some Things I’ve Built</div>
+            <WhiteLineHorizontal />
+          </div>
         </Fade>
         <Projects projects={projects} />
       </section>

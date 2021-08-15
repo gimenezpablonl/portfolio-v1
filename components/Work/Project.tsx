@@ -10,7 +10,6 @@ type Props = {
 };
 
 const Project = ({ project, isReversed }: Props) => {
-  const skillsToShow: number = 5;
   return (
     <>
       <div className={`flex ${isReversed ? "flex-row-reverse" : "flex-row"}`}>
