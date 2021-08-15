@@ -78,20 +78,6 @@ const Project = ({ project, isReversed }: Props) => {
           >
             <p className="lg:text-lg text-xs">{project.description}</p>
           </div>
-
-          {project.skillsUsed ? (
-            <div
-              className={`flex flex-row items-center ${
-                isReversed ? "justify-start" : "justify-end"
-              } gap-x-2`}
-            >
-              {project.skillsUsed.slice(0, skillsToShow).map((skill, index) => (
-                <div key={index} slot="icon">
-                  <skill.icon className="lg:h-8 lg:w-8 w-4 h-4" />
-                </div>
-              ))}
-            </div>
-          ) : null}
         </div>
       </div>
     </>
