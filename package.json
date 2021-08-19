@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@types/node": "^15.12.5",
-    "@types/react": "^17.0.16",
+    "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.8",
     "@types/simple-icons": "^5.0.0",
     "autoprefixer": "^10.2.6",
