@@ -37,7 +37,7 @@ const IndexPage = () => {
             <div className="flex flex-col justify-center min-h-screen pb-36 xl:pl-48 lg:pl-32 pl-16">
               <Hero />
             </div>
-            <div className="lg:mt-0 mt-8 flex flex-col lg:gap-y-48 md:gap-y-36 sm:gap-y-24 gap-y-12 xl:px-48 lg:px-32 px-16">
+            <div className="lg:mt-0 mt-8 flex flex-col lg:gap-y-48 md:gap-y-36 sm:gap-y-24 gap-y-12 xl:px-48 lg:px-32 px-16 overflow-hidden">
               <About />
               <Experience />
               <Skills />
