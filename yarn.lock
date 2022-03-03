@@ -1242,10 +1242,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
 
-"@types/react-dom@^17.0.12":
-  version "17.0.12"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.12.tgz#f08dfbc3c6d35084ffd3db6f09bdea8913de8494"
-  integrity sha512-SeJ430ndLI15JtRSHuzotn7AIdUtr8bdk6XW8mMfzjZo3vahRgJGHZqHiI4nAzCHTVG4qC21ObfsHBVUEHcDhg==
+"@types/react-dom@^17.0.13":
+  version "17.0.13"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-17.0.13.tgz#a3323b974ee4280070982b3112351bb1952a7809"
+  integrity sha512-wEP+B8hzvy6ORDv1QBhcQia4j6ea4SFIBttHYpXKPFZRviBvknq0FRh3VrIxeXUmsPkwuXVZrVGG7KUVONmXCQ==
   dependencies:
     "@types/react" "*"
 
@@ -2551,10 +2551,10 @@ nanoid@^3.1.30, nanoid@^3.3.1:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.1.tgz#6347a18cac88af88f58af0b3594b723d5e99bb35"
   integrity sha512-n6Vs/3KGyxPQd6uO0eH4Bv0ojGSUvuLlIHtC3Y0kEO23YRge8H9x1GCzLn28YX0H66pMkxuaeESFq4tKISKwdw==
 
-next-pwa@^5.3.1:
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.4.tgz#00f1678091f05662e54c25106664e79c26c337ef"
-  integrity sha512-Wo7DctXO9ZZzMCuRK/q2U3x5k49LBRv7p31woJIUfiR6tJChSMoojHUvvgeCY72gSo4mtovS5KRm6iHIs/kxeg==
+next-pwa@^5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/next-pwa/-/next-pwa-5.4.5.tgz#542412ae74c0363db6bcb3cd8ea5494d8003e3a5"
+  integrity sha512-XmMbUDoBYdo4Ib2vOau4p42+6+ClZqUCFEGuVj4iuyM2C+JCqcVa2BYXcyFitjsKVBfECeIwaUqKgMB8Qm9cDQ==
   dependencies:
     babel-loader "^8.2.3"
     clean-webpack-plugin "^4.0.0"
